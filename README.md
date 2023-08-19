@@ -24,8 +24,10 @@ cd ChatWithPDF
 pip install -r requirements.txt
 ```
 3. Add your OpenAI Key or HuggingFaceHub Token based on your requiremnts in .env file.
-4. Modify the code (uncomment) if you don't want to use OpenAI's LLM and Embeddings.
-5. Run the Streamlit application:
+   
+5. Modify the code (uncomment) if you don't want to use OpenAI's LLM and Embeddings.
+   
+7. Run the Streamlit application:
 ```
 streamlit run app.py
 ```
